@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
 import axios from 'axios';
-import { TMoney } from './common/types';
+import { TMoney } from './library/common/types';
 import { CryptoTable, ConverterBlock } from './components';
-import useStyles from './common/styles/index';
+import useStyles from './library/common/styles/index';
 
 function App() {
   const classes = useStyles();
