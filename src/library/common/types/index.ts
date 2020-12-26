@@ -1,4 +1,4 @@
-export type TMoney = {
+export interface IMoney {
     name: string;
     fullName: string;
     imageUrl: string;
